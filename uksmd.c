@@ -33,7 +33,7 @@
 #define KSM_RUN		"/sys/kernel/mm/ksm/run"
 #define KSMD_CMD		"ksmd"
 #define OBSERVE_WINDOW_SECS	10
-#define IDLE_SLEEP_SECS	5
+#define IDLE_SLEEP_SECS	15
 
 #ifndef __NR_pidfd_open
 #define __NR_pidfd_open 434	/* System call # on most architectures */
